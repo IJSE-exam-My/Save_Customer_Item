@@ -3,8 +3,8 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Separator?>
-<?import javafx.scene.layout.AnchorPane?>
+    <?import javafx.scene.control.Separator?>
+     <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="addItemContext" prefHeight="577.0" prefWidth="840.0" style="-fx-background-color: linear-gradient(to right top, #18283f, #1b3f56, #21576a, #30707a, #478987);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pos_system.controller.AddNewItemFormController">
