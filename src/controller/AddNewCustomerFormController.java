@@ -1,17 +1,4 @@
 package controller;
-/**
- * @author Sanduni Wijesinghe <nipunisandunikaw@gmail.com>
- * @since 10/9/2021
- * /
-
-
-/*
- * ----------------------------------------------------------------------
- *  Copyright(c) GDSE-Gangsterss.All Right Reserved.
- *  Licenced under the Sri Lankan Information Licence.
- * -----------------------------------------------------------------------
- */
-
 
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
@@ -34,22 +21,9 @@ public class AddNewCustomerFormController {
                 (txtID.getText(),txtTitle.getText(),txtName.getText(),txtAddress.getText(),
                 txtCity.getText(),txtProvince.getText(),txtPostCode.getText());
 
-        if(new CustomerController().saveCustomer(c1))
+        if(new lk.ijse.pos_system.controller.CustomerController().saveCustomer(c1))
             new Alert(Alert.AlertType.CONFIRMATION, "Saved..").show();
         else
             new Alert(Alert.AlertType.WARNING, "Try Again..").show();
-    }
-
-    @Override
-    public String toString() {
-        return "AddNewCustomerFormController{" +
-                "txtID=" + txtID +
-                ", txtTitle=" + txtTitle +
-                ", txtName=" + txtName +
-                ", txtPostCode=" + txtPostCode +
-                ", txtAddress=" + txtAddress +
-                ", txtCity=" + txtCity +
-                ", txtProvince=" + txtProvince +
-                '}';
     }
 }

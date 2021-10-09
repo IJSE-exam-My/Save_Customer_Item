@@ -1,17 +1,7 @@
 package controller;
-/**
- * @author Sanduni Wijesinghe <nipunisandunikaw@gmail.com>
- * @since 10/9/2021
- * /
 
-
-/*
- * ----------------------------------------------------------------------
- *  Copyright(c) GDSE-Gangsterss.All Right Reserved.
- *  Licenced under the Sri Lankan Information Licence.
- * -----------------------------------------------------------------------
- */
-
+import lk.ijse.pos_system.DB.DbConnection;
+import lk.ijse.pos_system.model.Customer;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
