@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SaveCustomerF">
+   <children>
+      <AnchorPane layoutX="-11.0" prefHeight="577.0" prefWidth="840.0" style="-fx-background-color: linear-gradient(to right top, #18283f, #204269, #245d97, #207ac7, #0599f9);">
+         <children>
+            <Label layoutX="14.0" layoutY="36.0" prefHeight="36.0" prefWidth="294.0" text="Save Customer" textFill="WHITE">
+               <font>
+                  <Font name="Modern No. 20" size="32.0" />
+               </font>
+            </Label>
+            <Separator layoutY="80.0" prefHeight="6.0" prefWidth="820.0" />
+            <Label layoutX="44.0" layoutY="132.0" prefHeight="26.0" prefWidth="162.0" text="Customer ID " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="172.0" prefHeight="26.0" prefWidth="155.0" text="Customer Title " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="218.0" prefHeight="26.0" prefWidth="155.0" text="Customer Name  " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="257.0" prefHeight="26.0" prefWidth="155.0" text="Customer Address  " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="294.0" prefHeight="26.0" prefWidth="58.0" text="City " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="330.0" prefHeight="26.0" prefWidth="98.0" text="Province " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="369.0" prefHeight="26.0" prefWidth="105.0" text="Post Code " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtID" layoutX="270.0" layoutY="119.0" prefHeight="26.0" prefWidth="134.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtTitle" layoutX="271.0" layoutY="159.0" prefHeight="26.0" prefWidth="134.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtName" layoutX="271.0" layoutY="205.0" prefHeight="26.0" prefWidth="134.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtPostCode" layoutX="264.0" layoutY="356.0" prefHeight="26.0" prefWidth="142.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtAddress" layoutX="270.0" layoutY="244.0" prefHeight="26.0" prefWidth="134.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtCity" layoutX="268.0" layoutY="281.0" prefHeight="26.0" prefWidth="134.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtProvince" layoutX="267.0" layoutY="317.0" prefHeight="26.0" prefWidth="141.0" unFocusColor="WHITE" />
+            <JFXButton layoutX="40.0" layoutY="406.0" onAction="#addNewCustomerOnAction" prefHeight="43.0" prefWidth="147.0" style="-fx-background-color: #10ac84; -fx-background-radius: 20;" text="ADD" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
