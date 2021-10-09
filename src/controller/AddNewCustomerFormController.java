@@ -39,4 +39,17 @@ public class AddNewCustomerFormController {
         else
             new Alert(Alert.AlertType.WARNING, "Try Again..").show();
     }
+
+    @Override
+    public String toString() {
+        return "AddNewCustomerFormController{" +
+                "txtID=" + txtID +
+                ", txtTitle=" + txtTitle +
+                ", txtName=" + txtName +
+                ", txtPostCode=" + txtPostCode +
+                ", txtAddress=" + txtAddress +
+                ", txtCity=" + txtCity +
+                ", txtProvince=" + txtProvince +
+                '}';
+    }
 }
