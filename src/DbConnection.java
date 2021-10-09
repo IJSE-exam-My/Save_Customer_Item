@@ -1,4 +1,15 @@
+/**
+ * @author Sanduni Wijesinghe <nipunisandunikaw@gmail.com>
+ * @since 10/9/2021
+ * /
 
+
+/*
+ * ----------------------------------------------------------------------
+ *  Copyright(c) GDSE-Gangsterss.All Right Reserved.
+ *  Licenced under the Sri Lankan Information Licence.
+ * -----------------------------------------------------------------------
+ */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
